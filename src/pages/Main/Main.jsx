@@ -182,14 +182,14 @@ const Main = () => {
           )}
 
           <div className={styles.imageContainer}>
-            <img src={mainImage} className={styles.mainImage} alt="대전 하늘채 스카이앤 3차-mainimage1" />
+            <img src={mainImage} className={styles.mainImage} alt="대전 도안 벽산블루밍-mainimage1" />
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox}>
               <div className={styles.mainImageTextSub}>
                대전의 중심, 높이가 다른  <span className={styles.greyText}>프리미엄의 시작</span>
               </div>
               <div className={styles.mainImageTitleBox}>
-                <div className={styles.mainImageText}>대전 하늘채 스카이앤 3차</div>
+                <div className={styles.mainImageText}>대전 도안 벽산블루밍</div>
                 <div className={styles.grandOpenText}>4월 GRAND OPEN 예정</div>
                 <div className={styles.grandOpenText1}>사전 청약 접수중</div> 
               </div>
@@ -198,7 +198,7 @@ const Main = () => {
               <img 
               src={subpinkimg} 
               className={styles.subPinkImg} 
-              alt="대전 하늘채 스카이앤 3차 관심고객등록" /></a>
+              alt="대전 도안 벽산블루밍 관심고객등록" /></a>
             </div>
 
             </div>
@@ -234,7 +234,7 @@ const Main = () => {
           </div>   
           </div>
               <div className={styles.menuBox}>
-                <img src={section1_Image1} alt="대전 하늘채 스카이앤 3차 브랜드소개-image2" />
+                <img src={section1_Image1} alt="대전 도안 벽산블루밍 브랜드소개-image2" />
                 <Link to="/Brand/video" className={styles.btn}>
                   브랜드 소개 {">"}
                 </Link>
@@ -247,17 +247,17 @@ const Main = () => {
               <div className={styles.textBox}>
                 <div className={styles.title}>
                   소수만 누릴 수 있는<br />
-                  <span>최고의 브랜드 아파트 대전 하늘채 스카이앤 3차</span>
+                  <span>최고의 브랜드 아파트 대전 도안 벽산블루밍</span>
                 </div>
                 <div className={styles.subTitle}>
                   <div className={styles.textLine}></div>
                   <div className={styles.subText}>
                     찬란한 비전에 완벽한 주거가치까지 더해<br />
-                    대전 하늘채 스카이앤 3차가 함께합니다
+                    대전 도안 벽산블루밍가 함께합니다
                   </div>
                 </div>
               </div>
-              <img src={section8Img3} alt="대전 하늘채 스카이앤 3차 입지환경소개-image2" />
+              <img src={section8Img3} alt="대전 도안 벽산블루밍 입지환경소개-image2" />
             </div>
           </div> */}
 
@@ -268,7 +268,7 @@ const Main = () => {
                   완벽한 생활에서 준비된 미래까지
                 </div>
                 <div className={`${styles.text2} fadeUpRepeat`}>
-                  기대한 모든 프리미엄이<br />대전 하늘채 스카이앤 3차에서 펼쳐집니다
+                  기대한 모든 프리미엄이<br />대전 도안 벽산블루밍에서 펼쳐집니다
                 </div>
                 <div className={`${styles.text3} fadeUpRepeat`}>
                   SPECIAL PLAN
@@ -280,7 +280,7 @@ const Main = () => {
                   주거의 품격과 가치를 높이는 <span>특화설계</span><br />안전한 이동을 위한 세심한 <span>단지설계</span><br />편리한 생활을 위한 최적의 <span>공간설계</span>
                 </div>
               </div>
-              <img src={section2_Image1} alt="대전 하늘채 스카이앤 3차아파트 조감도-image3" />
+              <img src={section2_Image1} alt="대전 도안 벽산블루밍아파트 조감도-image3" />
             </div>
           </div>
 
@@ -303,8 +303,8 @@ const Main = () => {
           {/* <div className={styles.section}>
             <div className={styles.section4}>
               <div className={styles.imageBox}>
-                <img src={section4_Image1} alt="대전 하늘채 스카이앤 3차 브랜드소개-image4" />
-                <div className={styles.text1}>대전 하늘채 스카이앤 3차</div>
+                <img src={section4_Image1} alt="대전 도안 벽산블루밍 브랜드소개-image4" />
+                <div className={styles.text1}>대전 도안 벽산블루밍</div>
                 <div className={styles.text2}>THE NATURAL NOBILITY</div>
                 <div className={styles.text3}>당신의 삶, 그 고귀함이 계속되길</div>
               </div>
@@ -324,14 +324,14 @@ const Main = () => {
               <div className={styles.registrationInfo}>
                 <div className={styles.text1}>
                   <p>
-                  대전 하늘채 스카이앤 3차
+                  대전 도안 벽산블루밍
                     <br />
                     주변이 궁금하시나요?
                   </p>
                 </div>
                 <div className={styles.text2}>
                   <p>
-                  대전 하늘채 스카이앤 3차
+                  대전 도안 벽산블루밍
                     <br />
                     현장 정보 및 견본주택 정보를 보실 수 있습니다.
                   </p>
@@ -350,7 +350,7 @@ const Main = () => {
               </div>
               {/* 오른쪽 관심고객 등록 폼 영역 */}
               <div className={styles.registrationSection}>
-                <div className={styles.registrationHeader}>대전 하늘채 스카이앤 3차</div>
+                <div className={styles.registrationHeader}>대전 도안 벽산블루밍</div>
                 <div className={styles.registrationDescription}>
                   관심고객등록
                   
@@ -407,18 +407,18 @@ const Main = () => {
             <div className={styles.section9}>
               <div className={styles.textBox}>
                 <div className={styles.title}>
-                대전 하늘채 스카이앤 3차<br />
+                대전 도안 벽산블루밍<br />
                   <span>견본주택 오시는길</span>
                 </div>
                 <div className={styles.subTitle}>
                   <div className={styles.textLine}></div>
                   <div className={styles.subText}>
                     찬란한 비전에 완벽한 주거가치까지 더해<br />
-                    대전 하늘채 스카이앤 3차가 함께합니다
+                    대전 도안 벽산블루밍가 함께합니다
                   </div>
                 </div>
               </div>
-              <img src={map1} alt="대전 하늘채 스카이앤 3차 오시는길안내-image1" />
+              <img src={map1} alt="대전 도안 벽산블루밍 오시는길안내-image1" />
             </div>
           </div> */}
 
@@ -469,7 +469,7 @@ const Main = () => {
           <Header isChanged={isScroll} />
 
           <div className={styles.imageContainer}>
-            <img src={mobileImageMain} className={styles.mainImage} alt="대전 하늘채 스카이앤 3차 mobilemain-image1" />
+            <img src={mobileImageMain} className={styles.mainImage} alt="대전 도안 벽산블루밍 mobilemain-image1" />
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox1}>
               <div className={styles.mainImageTextSub1}>
@@ -524,11 +524,11 @@ const Main = () => {
                 <div className={styles.textLine}></div>
                 <div className={styles.subText}>
                   완벽한 비전중심에서 완벽한 주거가치까지 더해<br />
-                  대전 하늘채 스카이앤 3차가 함께합니다
+                  대전 도안 벽산블루밍가 함께합니다
                 </div>
               </div>
             </div>
-            <img src={section8Img3} alt="대전 하늘채 스카이앤 3차 mobile입지안내-image1" />
+            <img src={section8Img3} alt="대전 도안 벽산블루밍 mobile입지안내-image1" />
           </div> */}
 
           <div className={styles.container3}>
@@ -543,10 +543,10 @@ const Main = () => {
               <div className={`${styles.text3} fadeUpRepeat`}>SPECIAL PLAN</div>
               <div className={`${styles.text4} fadeUpRepeat`}>
                 살수록 자부심이 차원이 다른<br />
-                프리미엄 주거라이프를 대전 하늘채 스카이앤 3차 <br/>모델하우스에서 확인하세요
+                프리미엄 주거라이프를 대전 도안 벽산블루밍 <br/>모델하우스에서 확인하세요
               </div>
             </div>
-            <img src={section2_Image1} alt="대전 하늘채 스카이앤 3차 mobile조감도-image1" />
+            <img src={section2_Image1} alt="대전 도안 벽산블루밍 mobile조감도-image1" />
           </div>
 
           <div className={styles.container4}>
@@ -572,7 +572,7 @@ const Main = () => {
 
           {/* 관심고객 등록 섹션 (모바일 버전) */}
           <div className={styles.containerRegistration}>
-            <div className={styles.registrationHeader}>대전 하늘채 스카이앤 3차</div>
+            <div className={styles.registrationHeader}>대전 도안 벽산블루밍</div>
             <div className={styles.registrationDescription}>
               관심고객등록
             </div>
@@ -624,7 +624,7 @@ const Main = () => {
 
           <div className={styles.container2}>
             <div>
-              <img src={section1_Image1} alt="대전 하늘채 스카이앤 3차 브랜드소개 mobile-image5" />
+              <img src={section1_Image1} alt="대전 도안 벽산블루밍 브랜드소개 mobile-image5" />
               <Link to="/Brand/intro" className={styles.btn}>
                 브랜드 소개 {">"}
               </Link>
@@ -633,7 +633,7 @@ const Main = () => {
 
           {/* <div className={styles.section}>
             <div className={styles.section9}>
-              <img src={mobilemap1} alt="대전 하늘채 스카이앤 3차 오시는길안내-mobileimage2" />
+              <img src={mobilemap1} alt="대전 도안 벽산블루밍 오시는길안내-mobileimage2" />
             </div>
           </div> */}
 

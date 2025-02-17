@@ -59,13 +59,13 @@ const FloorPlan6 = () => {
 			<Header isChanged={isScroll} />
 			<FixIcon />
 
-			<Bener title="대전 하늘채 스카이앤 3차 119B 평면image" />
+			<Bener title="대전 도안 벽산블루밍 119B 평면image" />
 
 			<MenuBar contents={menuContents} />
 
 			<div className={styles.textBox}>
 				<div>대전의 눈부신 가치 위에</div>
-				<div>코오롱의 새로운 자부심으로 찾아옵니다.</div>
+				<div>블루밍의 새로운 자부심으로 찾아옵니다.</div>
 			</div>
 
 			{/* 이미지에 애니메이션 효과 추가 */}

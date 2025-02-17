@@ -14,7 +14,7 @@ import Ready from "../../components/Ready/Ready"; // Ready 컴포넌트 불러�
 
 
 // const projectData = [
-// 	{ label: '사업명', value: '대전 하늘채 스카이앤 3차' },
+// 	{ label: '사업명', value: '대전 도안 벽산블루밍' },
 // 	{ label: '사업위치', value: '평택 브레인시티 일반산업단지 공동3BL' },
 // 	{ label: '대지면적', value: '106,050.4985㎡' },
 // 	{ label: '건축면적', value: '13,404.3638㎡' },
@@ -58,16 +58,16 @@ const BusinessGuide1 = () => {
 		<div className={styles.container}>
 
 <Helmet>
-					<title>대전 하늘채 스카이앤 3차- 사업안내</title>
-					<meta name="description" content="대전 하늘채 스카이앤 3차의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화 등을 중점적으로 설명하여 평택에서의 새로운 주거 중심지로서의 가능성을 보여드립니다." />
-					<meta property="og:title" content="대전 하늘채 스카이앤 3차 - 사업안내" />
-					<meta property="og:description" content="대전 하늘채 스카이앤 3차의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화 등을 중점적으로 설명하여 평택에서의 새로운 주거 중심지로서의 가능성을 보여드립니다." />
-					<meta property="og:image" content="http://www.kikaporn.com/Main1.png" />
-					<meta property="og:url" content="http://www.kikaporn.com/BusinessGuide/intro" />
-					<meta name="twitter:title" content="대전 하늘채 스카이앤 3차 - 사업안내" />
-					<meta name="twitter:description" content="대전 하늘채 스카이앤 3차의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화 등을 중점적으로 설명하여 평택에서의 새로운 주거 중심지로서의 가능성을 보여드립니다." />
-					<meta name="twitter:image" content="http://www.kikaporn.com/Main1.png" />
-					<meta name="twitter:url" content="http://www.kikaporn.com/BusinessGuide/intro" />
+					<title>대전 도안 벽산블루밍- 사업안내</title>
+					<meta name="description" content="대전 도안 벽산블루밍의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화 등을 중점적으로 설명하여 평택에서의 새로운 주거 중심지로서의 가능성을 보여드립니다." />
+					<meta property="og:title" content="대전 도안 벽산블루밍 - 사업안내" />
+					<meta property="og:description" content="대전 도안 벽산블루밍의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화 등을 중점적으로 설명하여 평택에서의 새로운 주거 중심지로서의 가능성을 보여드립니다." />
+					<meta property="og:image" content="https://www.sttlbb.com/Main1.png" />
+					<meta property="og:url" content="https://www.sttlbb.com/BusinessGuide/intro" />
+					<meta name="twitter:title" content="대전 도안 벽산블루밍 - 사업안내" />
+					<meta name="twitter:description" content="대전 도안 벽산블루밍의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화 등을 중점적으로 설명하여 평택에서의 새로운 주거 중심지로서의 가능성을 보여드립니다." />
+					<meta name="twitter:image" content="https://www.sttlbb.com/Main1.png" />
+					<meta name="twitter:url" content="https://www.sttlbb.com/BusinessGuide/intro" />
 					</Helmet>       
 			
 
@@ -78,16 +78,16 @@ const BusinessGuide1 = () => {
 
 			<MenuBar contents={menuContents} />
 			{/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
-            <h1 className={styles.screenReaderOnly}>대전 하늘채 스카이앤 3차 - 사업안내</h1>
-			<p className={styles.screenReaderOnly}>대전 하늘채 스카이앤 3차는 혁신적인 주거 환경을 제공하는 새로운 아파트 단지입니다. 이 페이지에서는 프로젝트의 전체적인 개요와 개발 계획을 상세히 소개합니다. 사업의 목적, 주요 설계 및 특징, 그리고 주변 환경을 포함한 다양한 정보를 통해 입주자들에게 더 나은 선택을 할 수 있도록 돕습니다.
+            <h1 className={styles.screenReaderOnly}>대전 도안 벽산블루밍 - 사업안내</h1>
+			<p className={styles.screenReaderOnly}>대전 도안 벽산블루밍는 혁신적인 주거 환경을 제공하는 새로운 아파트 단지입니다. 이 페이지에서는 프로젝트의 전체적인 개요와 개발 계획을 상세히 소개합니다. 사업의 목적, 주요 설계 및 특징, 그리고 주변 환경을 포함한 다양한 정보를 통해 입주자들에게 더 나은 선택을 할 수 있도록 돕습니다.
 			</p>
 
 			<div className={styles.textBox}>
 				<div>특별한 라이프 컬렉션</div>
-				<div>대전 하늘채 스카이앤 3차의 새로운 자부심으로 찾아옵니다.</div>
+				<div>대전 도안 벽산블루밍의 새로운 자부심으로 찾아옵니다.</div>
 			</div>
 
-			{/* <img className={styles.img3} src={page1} alt="대전 하늘채 스카이앤 3차-image1"/> */}
+			{/* <img className={styles.img3} src={page1} alt="대전 도안 벽산블루밍-image1"/> */}
 
 			{/* <div className={styles.tableContainer}>
 				{!isMobile && <img className={styles.tableImg} src={tableImage} />}

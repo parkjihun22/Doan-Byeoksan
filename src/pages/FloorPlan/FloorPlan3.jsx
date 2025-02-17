@@ -74,7 +74,7 @@ const FloorPlan3 = () => {
 			{/* <img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="대전 하늘채 스카이앤 3차 84A 평면image"
+				alt="대전 도안 벽산블루밍 84A 평면image"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/> */}
 
