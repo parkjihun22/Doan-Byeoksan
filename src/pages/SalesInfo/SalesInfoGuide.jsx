@@ -56,12 +56,12 @@ const ComplexGuide1 = () => {
           <meta name="description" content="대전 도안 벽산블루밍의 인터넷 청약은 간편하고 빠르게 분양에 참여할 수 있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며, 언제 어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를 확인하고, 청약을 통해 힐스테이트 용인 마크밸리의 기회를 놓치지 마세요." />
           <meta property="og:title" content="대전 도안 벽산블루밍 - 인터넷청약" />
           <meta property="og:description" content="힐대전 도안 벽산블루밍의 인터넷 청약은 간편하고 빠르게 분양에 참여할 수 있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며, 언제 어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를 확인하고, 청약을 통해 힐스테이트 용인 마크밸리의 기회를 놓치지 마세요." />
-          <meta property="og:image" content="https://www.sttlbb.com/Main1.png" />
-          <meta property="og:url" content="https://www.sttlbb.com/SalesInfo/guide" />
+          <meta property="og:image" content="https://www.abcya4.com/Main1.png" />
+          <meta property="og:url" content="https://www.abcya4.com/SalesInfo/guide" />
           <meta name="twitter:title" content="대전 도안 벽산블루밍 - 인터넷청약" />
           <meta name="twitter:description" content="대전 도안 벽산블루밍의 인터넷 청약은 간편하고 빠르게 분양에 참여할 수 있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며, 언제 어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를 확인하고, 청약을 통해 힐스테이트 용인 마크밸리의 기회를 놓치지 마세요." />
-          <meta name="twitter:image" content="https://www.sttlbb.com/Main1.png" />
-          <meta name="twitter:url" content="https://www.sttlbb.com/SalesInfo/guide" />
+          <meta name="twitter:image" content="https://www.abcya4.com/Main1.png" />
+          <meta name="twitter:url" content="https://www.abcya4.com/SalesInfo/guide" />
           </Helmet> 	
       
 

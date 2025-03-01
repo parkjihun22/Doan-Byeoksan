@@ -73,12 +73,12 @@ const ComplexGuide1 = () => {
           <meta name="description" content="대전 도안 벽산블루밍의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요." />
           <meta property="og:title" content="대전 도안 벽산블루밍 - 인터넷청약" />
           <meta property="og:description" content="대전 도안 벽산블루밍의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요." />
-          <meta property="og:image" content="https://www.sttlbb.com/Main1.png" />
-          <meta property="og:url" content="https://www.sttlbb.com/SalesInfo/announcement" />
+          <meta property="og:image" content="hhttps://www.abcya4.com/Main1.png" />
+          <meta property="og:url" content="hhttps://www.abcya4.com/SalesInfo/announcement" />
           <meta name="twitter:title" content="대전 도안 벽산블루밍- 인터넷청약" />
           <meta name="twitter:description" content="대전 도안 벽산블루밍의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요." />
-          <meta name="twitter:image" content="https://www.sttlbb.com/Main1.png" />
-          <meta name="twitter:url" content="https://www.sttlbb.com/SalesInfo/announcement" />
+          <meta name="twitter:image" content="hhttps://www.abcya4.com/Main1.png" />
+          <meta name="twitter:url" content="hhttps://www.abcya4.com/SalesInfo/announcement" />
           </Helmet>
 
             <Header isChanged={isScroll} />

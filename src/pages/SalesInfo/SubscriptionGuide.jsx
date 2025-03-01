@@ -56,12 +56,12 @@ const ComplexGuide1 = () => {
           <meta name="description" content="대전 도안 벽산블루밍분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다." />
           <meta property="og:title" content="대전 도안 벽산블루밍- 체크포인트" />
           <meta property="og:description" content="대전 도안 벽산블루밍 분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다." />
-          <meta property="og:image" content="https://www.sttlbb.com/Main1.png" />
-          <meta property="og:url" content="https://www.sttlbb.com//SubscriptionGuide" />
+          <meta property="og:image" content="https://www.abcya4.com/Main1.png" />
+          <meta property="og:url" content="https://www.abcya4.com//SubscriptionGuide" />
           <meta name="twitter:title" content="대전 도안 벽산블루밍 - 체크포인트" />
           <meta name="twitter:description" content="대전 도안 벽산블루밍 분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다." />
-          <meta name="twitter:image" content="https://www.sttlbb.com/Main1.png" />
-          <meta name="twitter:url" content="https://www.sttlbb.com/SalesInfo/SubscriptionGuide" />
+          <meta name="twitter:image" content="https://www.abcya4.com/Main1.png" />
+          <meta name="twitter:url" content="https://www.abcya4.com/SalesInfo/SubscriptionGuide" />
           </Helmet> 
       
 
