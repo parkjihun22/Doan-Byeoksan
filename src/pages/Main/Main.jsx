@@ -215,7 +215,7 @@ const Main = () => {
                 <div className={styles.text3}>
                   - 도안 용계동 중심상업지구 매우인접 <br />
                   - 첨단 아주대학교 종합병원 도보 5분 <br />
-                  - 평택 지제역 1호선, STR, KTX, GTX-A · C 확정으로 펜타역세권{" "}
+                  - 대전 1호선, STR, KTX, GTX-A · C 확정으로 펜타역세권{" "}
                   <br />
                   - 모두를 누리는 대전 도안 벽산블루밍
                 </div>
@@ -478,7 +478,7 @@ const Main = () => {
               </div>
               <div className={styles.mainImageTitleBox1}>
 
-                <div className={styles.mainImageText1}>대전하늘채 스카이앤 3차</div>
+                <div className={styles.mainImageText1}>대전 도안 벽산 블루밍</div>
                 <div className={styles.grandOpenText1}>4월 GRAND OPEN 예정</div>
                 <div className={styles.grandOpenText3}>사전 청약 접수중</div>  
               </div>
@@ -495,7 +495,7 @@ const Main = () => {
               <br />
               - 첨단 아주대학교 AI종합병원, 의료R＆D센터 도보 5분
               <br />
-              - 평택 지제역 KTX, GTX-A · C 확정 삼성전자 평택캠퍼스, 초등학교, 수변공원
+              - 대전 KTX, GTX-A · C 확정 삼성전자 대전캠퍼스, 초등학교, 수변공원
               <br />
               - 모두를 누리는 반도체밸리 주거 타운의 완성
             </div>
@@ -538,7 +538,7 @@ const Main = () => {
               </div>
               <div className={`${styles.text2} fadeUpRepeat`}>
                 기대한 모든 프리미엄이<br />
-                대전 하늘채 스카이앤에서 펼쳐집니다
+                도안 벽산블루밍에서 펼쳐집니다
               </div>
               <div className={`${styles.text3} fadeUpRepeat`}>SPECIAL PLAN</div>
               <div className={`${styles.text4} fadeUpRepeat`}>
