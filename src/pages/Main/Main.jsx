@@ -12,6 +12,8 @@ import UnitplanBox from "../../components/UnitplanBox/UnitplanBox";
 import MobilePopup from "../../components/MobilePopup/MobilePopup";
 import Popup from "../../components/Popup/Popup";
 import MobileSectionBox from "../../components/MobileSectionBox/MobileSectionBox";
+import UrlContainer from "../../components/UrlContainer/UrlContainer";
+
 
 import mainImage from "../../assets/Main/Main1.jpg";
 import section1_Image1 from "../../assets/Main/section1-img1.jpg";
@@ -194,11 +196,16 @@ const Main = () => {
                 <div className={styles.grandOpenText1}>사전 청약 접수중</div> 
               </div>
               <div>
-              <a href="#interestForm">
-              <img 
-              src={subpinkimg} 
-              className={styles.subPinkImg} 
-              alt="도안 벽산블루밍 관심고객등록" /></a>
+              <button
+                  onClick={() => setIsInterestPopupOpen(true)}
+                  className={styles.subPinkBtn}
+                >
+                  <img
+                    src={subpinkimg}
+                    className={styles.subPinkImg}
+                    alt="브레인시티푸르지오 관심고객등록"
+                  />
+                </button>
             </div>
 
             </div>
@@ -423,6 +430,7 @@ const Main = () => {
           </div> */}
 
           <div className={styles.section5}>
+          <UrlContainer />
             <Footer />
           </div>
           {/* 방문예약 팝업 (PC) */}
@@ -638,6 +646,7 @@ const Main = () => {
           </div> */}
 
           <div className={styles.section5}>
+            <UrlContainer />
             <Footer />
             <FixIcon />
           </div>
