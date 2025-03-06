@@ -66,7 +66,7 @@ const Brand1 = () => {
             <Header isChanged={isScroll} />
             <FixIcon />
 
-            <Bener title="대전 하늘채 스카이앤" />
+            <Bener title="도안 벽산블루밍" />
 
             <MenuBar contents={menuContents} />
             {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
