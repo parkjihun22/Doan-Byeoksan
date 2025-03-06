@@ -59,7 +59,7 @@ const FloorPlan6 = () => {
 			<Header isChanged={isScroll} />
 			<FixIcon />
 
-			<Bener title="대전 도안 벽산블루밍 119B 평면image" />
+			<Bener title="평면안내" />
 
 			<MenuBar contents={menuContents} />
 
