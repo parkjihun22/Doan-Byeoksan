@@ -1,66 +1,57 @@
-import { useRef, useState } from "react";
-import { useMediaQuery } from "react-responsive";
-import styles from "./UrlContainer.module.scss";
-import urlList from "../../UrlList";
+// import { useRef, useState } from "react";
+// import { useMediaQuery } from "react-responsive";
+// import styles from "./UrlContainer.module.scss"; // ✅ 확장자 scss로 수정!
+// import urlList from "../../UrlList"; // ✅ 경로 수정 (상위 폴더)
 
-const UrlContainer = () => {
-    const containerRef = useRef(null);
-    const isMobile = useMediaQuery({ query: "(max-width: 900px)" });
-    const [scrollIndex, setScrollIndex] = useState(0);
-    const visibleItems = isMobile ? 3 : 5;
-    const itemWidth = isMobile ? 27 : 16; 
+// const UrlContainer = () => {
+//     const containerRef = useRef(null);
+//     const isMobile = useMediaQuery({ query: "(max-width: 900px)" });
+//     const [scrollIndex, setScrollIndex] = useState(0);
 
-    const handleScroll = (direction) => {
-        if (!containerRef.current) return;
-    
-        let newIndex = scrollIndex + (direction === "left" ? -3 : 3);
-    
-        // 🔄 원형 스크롤 구현
-        if (newIndex < 0) {
-            newIndex = urlList.length - visibleItems; // 처음에서 왼쪽 → 마지막으로
-        } else if (newIndex > urlList.length - visibleItems) {
-            newIndex = 0; // 마지막에서 오른쪽 → 처음으로
-        }
-    
-        setScrollIndex(newIndex);
-        containerRef.current.scrollTo({
-            left: newIndex * (itemWidth * window.innerWidth) / 100,
-            behavior: "smooth",
-        });
-    };
-    
+//     const visibleItems = isMobile ? 3 : 5;
+//     const itemWidth = isMobile ? 27 : 16;
 
-    return (
-        <div className={styles.container}>
-            <div className={styles.title}>전국 협력업체 소개</div>
+//     const handleScroll = (direction) => {
+//         if (!containerRef.current) return;
 
-            <div className={styles.urlContainer}> {/* ✅ 대소문자 맞춤 */}
-                <button
-                    className={styles.navButton}
-                    onClick={() => handleScroll("left")}
-                >
-                    ◀
-                </button>
+//         let newIndex = scrollIndex + (direction === "left" ? -visibleItems : visibleItems);
 
-                <div className={styles.innerContainer} ref={containerRef}>
-                    {urlList.map((value, index) => (
-                        <a key={index} className={styles.urlContent} href={value.url}>
-                            <img src={value.image} alt={value.image_alt} />
+//         if (newIndex < 0) newIndex = 0;
+//         else if (newIndex > urlList.length - visibleItems) newIndex = urlList.length - visibleItems;
 
-                            <div>{value.name}</div>
-                        </a>
-                    ))}
-                </div>
+//         setScrollIndex(newIndex);
 
-                <button
-                    className={styles.navButton}
-                    onClick={() => handleScroll("right")}
-                >
-                    ▶
-                </button>
-            </div>
-        </div>
-    );
-};
+//         containerRef.current.scrollTo({
+//             left: newIndex * ((itemWidth * window.innerWidth) / 100),
+//             behavior: "smooth",
+//         });
+//     };
 
-export default UrlContainer;
+//     return (
+//         <div className={styles.container}>
+//             <div className={styles.title}>전국 주요 분양 단지</div>
+//             <div className={styles.wrapper}>
+//                 <button className={styles.btn} onClick={() => handleScroll("left")}>◀</button>
+//                 <div className={styles.scrollBox} ref={containerRef}>
+//                     {urlList.map((item, index) => (
+//                         <a
+//                             key={index}
+//                             href={item.url}
+//                             target="_blank"
+//                             rel="nofollow noopener noreferrer"
+//                             className={styles.item}
+//                         >
+//                             <img src={item.image} alt={item.image_alt} className={styles.image} />
+//                             <span className={styles.name}>{item.name}</span>
+//                         </a>
+//                     ))}
+//                 </div>
+//                 <button className={styles.btn} onClick={() => handleScroll("right")}>
+//                     ▶
+//                 </button>
+//             </div>
+//         </div>
+//     );
+// };
+
+// export default UrlContainer;
